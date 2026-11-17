@@ -3,12 +3,18 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about: []
+about:
+- identifier: UBERON:0002264
+  name: Olfactory Bulb
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 acknowledgement: 'Funding: The work was supported by the German research foundation,
-  the DFG (LU2164/1-1, GRK 2174, FOR5424: EG 135/11-1, 12-1, project number 466488864).'
+  the DFG (LU2164/1-1, GRK 2174, FOR5424: EG 135/11-1, 12-1, project number 466488864).
+  We thank Anne Pietryga-Krieger and Ellen Fröhlich for technical assistance, and
+  Dr. Mohammad Tariq, Dr. Yousef Sadegheih and Dr. Sophie Stolzenberger for preparing
+  the online data deposit. '
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
@@ -46,6 +52,11 @@ contributor:
 - identifier: 0000-0001-5729-997X
   name: Suyama, Hajime
   schemaKey: Person
+- identifier: https://ror.org/018mejw64
+  name: 'DFG (LU2164/1-1, GRK 2174, FOR5424: EG 135/11-1, 12-1, project number 466488864)'
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2026-11-17T15:54:37.143221+00:00'
 description: "Abstract\nSocial discrimination in rats relies on vasopressin cells
   (VPCs), neurons intrinsic to the olfactory bulb (OB). Interaction with conspecifics
