@@ -3,9 +3,12 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: 'Funding: The work was supported by the German research foundation,
+  the DFG (LU2164/1-1, GRK 2174, FOR5424: EG 135/11-1, 12-1, project number 466488864).'
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
@@ -16,10 +19,32 @@ citation: Egger, Veronica (2026) Synergistic afferent input and cholinergic neur
 contributor:
 - affiliation: []
   email: veronica.egger@ur.de
+  identifier: 0000-0001-5729-997X
   includeInCitation: true
   name: Egger, Veronica
   roleName:
   - dcite:ContactPerson
+  schemaKey: Person
+- email: nicolas.reichardt@ur.de
+  identifier: 0009-0001-8181-0579
+  name: Reichardt, Nicolas
+  schemaKey: Person
+- name: Kindler, Lisa
+  schemaKey: Person
+- identifier: 0009-0006-2082-4834
+  name: Pino, Esteban
+  schemaKey: Person
+- name: Leygnier, Manon
+  schemaKey: Person
+- name: Jahan, Israt
+  schemaKey: Person
+- name: Schmid, Jonas
+  schemaKey: Person
+- identifier: 0000-0002-4287-7367
+  name: Lukas, Michael
+  schemaKey: Person
+- identifier: 0000-0001-5729-997X
+  name: Suyama, Hajime
   schemaKey: Person
 dateCreated: '2026-11-17T15:54:37.143221+00:00'
 description: "Abstract\nSocial discrimination in rats relies on vasopressin cells
@@ -44,16 +69,29 @@ description: "Abstract\nSocial discrimination in rats relies on vasopressin cell
   as a tool to monitor the cholinergic switch to afferent VPC excitation. Moreover,
   pERK induction in the OB is cell-type specific, implying a corresponding diversity
   in the respective signaling cascades. "
+ethicsApproval: []
 id: DANDI:002093/draft
 identifier: DANDI:002093
+keywords:
+- Vasopressin
+- acetylcholine
+- olfactory bulb
+- pERK
+- MAPK
+- neural activity marker
+- vasopressin cell
+- olfactory nerve
+- mitral cell
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002093/versions/draft/assets/
 name: Synergistic afferent input and cholinergic neuromodulation can lead to ERK activation
   in rat olfactory bulb vasopressin cells
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/002093/draft
 version: draft
+wasGeneratedBy: []
