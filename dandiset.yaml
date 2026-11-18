@@ -16,7 +16,11 @@ acknowledgement: 'Funding: The work was supported by the German research foundat
   Dr. Mohammad Tariq, Dr. Yousef Sadegheih and Dr. Sophie Stolzenberger for preparing
   the online data deposit. '
 assetsSummary:
-  approach: []
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  - name: electrophysiological approach
+    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
@@ -24,9 +28,15 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 10989058851
-  numberOfFiles: 21
-  numberOfSubjects: 6
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: current clamp technique
+    schemaKey: MeasurementTechniqueType
+  - name: voltage clamp technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 45416306620
+  numberOfFiles: 134
+  numberOfSubjects: 55
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
@@ -34,6 +44,12 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ProcessingModule
+  - ImagingPlane
+  - OpticalChannel
+  - CurrentClampStimulusSeries
+  - CurrentClampSeries
+  - VoltageClampStimulusSeries
+  - VoltageClampSeries
 citation: Egger, Veronica (2026) Synergistic afferent input and cholinergic neuromodulation
   can lead to ERK activation in rat olfactory bulb vasopressin cells (Version draft)
   [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002093/draft
