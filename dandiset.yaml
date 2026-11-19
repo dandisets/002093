@@ -34,9 +34,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: voltage clamp technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 135827005551
-  numberOfFiles: 156
-  numberOfSubjects: 59
+  numberOfBytes: 157279392052
+  numberOfFiles: 157
+  numberOfSubjects: 60
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
@@ -130,7 +130,14 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002093/versions/draft/assets/
 name: Synergistic afferent input and cholinergic neuromodulation can lead to ERK activation
   in rat olfactory bulb vasopressin cells
-relatedResource: []
+relatedResource:
+- name: Data archive of "Synergistic afferent input and cholinergic neuromodulation
+    can lead to ERK activation in rat olfactory bulb vasopressin cells"
+  relation: dcite:IsSupplementTo
+  repository: Publikationsserver der Universität Regensburg
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://epub.uni-regensburg.de/81077/
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
