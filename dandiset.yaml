@@ -50,38 +50,100 @@ assetsSummary:
   - CurrentClampSeries
   - VoltageClampStimulusSeries
   - VoltageClampSeries
-citation: Egger, Veronica (2026) Synergistic afferent input and cholinergic neuromodulation
-  can lead to ERK activation in rat olfactory bulb vasopressin cells (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002093/draft
+citation: Egger, Veronica; Reichardt, Nicolas; Kindler, Lisa; Pino, Esteban; Leygnier,
+  Manon; Jahan, Israt; Schmid, Jonas; Lukas, Michael; Suyama, Hajime (2026) Synergistic
+  afferent input and cholinergic neuromodulation can lead to ERK activation in rat
+  olfactory bulb vasopressin cells (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002093/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - name: Institute of Zoology, Neurophysiology, University of Regensburg
+    schemaKey: Affiliation
   email: veronica.egger@ur.de
   identifier: 0000-0001-5729-997X
   includeInCitation: true
   name: Egger, Veronica
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
   schemaKey: Person
-- email: nicolas.reichardt@ur.de
+- affiliation:
+  - name: Institute of Zoology, Neurophysiology, University of Regensburg
+    schemaKey: Affiliation
+  email: nicolas.reichardt@ur.de
   identifier: 0009-0001-8181-0579
+  includeInCitation: true
   name: Reichardt, Nicolas
+  roleName:
+  - dcite:Author
+  - dcite:DataManager
   schemaKey: Person
-- name: Kindler, Lisa
+- affiliation:
+  - name: Department of Evolutionary Biology, Integrative Zoology, University of Vienna
+    schemaKey: Affiliation
+  - name: Institute of Zoology, Neurophysiology, University of Regensburg
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Kindler, Lisa
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- identifier: 0009-0006-2082-4834
+- affiliation:
+  - name: Institute of Zoology, Neurophysiology, University of Regensburg
+    schemaKey: Affiliation
+  email: esteban.pino@ur.de
+  identifier: 0009-0006-2082-4834
+  includeInCitation: true
   name: Pino, Esteban
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- name: Leygnier, Manon
+- affiliation:
+  - name: Institute of Zoology, Neurophysiology, University of Regensburg
+    schemaKey: Affiliation
+  email: manon.leygnier@ur.de
+  includeInCitation: true
+  name: Leygnier, Manon
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- name: Jahan, Israt
+- affiliation:
+  - name: Institute of Zoology, Neurophysiology, University of Regensburg
+    schemaKey: Affiliation
+  email: israt.jahan@ur.de
+  includeInCitation: true
+  name: Jahan, Israt
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- name: Schmid, Jonas
+- affiliation:
+  - name: Institute of Zoology, Neurophysiology, University of Regensburg
+    schemaKey: Affiliation
+  email: jonas4.schmid@stud.uni-regensburg.de
+  includeInCitation: true
+  name: Schmid, Jonas
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- identifier: 0000-0002-4287-7367
+- affiliation:
+  - name: Institute of Zoology, Neurophysiology, University of Regensburg
+    schemaKey: Affiliation
+  identifier: 0000-0002-4287-7367
+  includeInCitation: true
   name: Lukas, Michael
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- identifier: 0000-0001-5729-997X
+- affiliation:
+  - name: Division of Neurophysiology, Center for Brain Research, Medical University
+      of Vienna
+    schemaKey: Affiliation
+  - name: Institute of Zoology, Neurophysiology, University of Regensburg
+    schemaKey: Affiliation
+  identifier: 0000-0001-5729-997X
+  includeInCitation: true
   name: Suyama, Hajime
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - identifier: https://ror.org/018mejw64
   name: 'DFG (LU2164/1-1, GRK 2174, FOR5424: EG 135/11-1, 12-1, project number 466488864)'
