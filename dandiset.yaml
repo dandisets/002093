@@ -50,22 +50,12 @@ assetsSummary:
   - CurrentClampSeries
   - VoltageClampStimulusSeries
   - VoltageClampSeries
-citation: Egger, Veronica; Reichardt, Nicolas; Kindler, Lisa; Pino, Esteban; Leygnier,
-  Manon; Jahan, Israt; Schmid, Jonas; Lukas, Michael; Suyama, Hajime (2026) Synergistic
-  afferent input and cholinergic neuromodulation can lead to ERK activation in rat
-  olfactory bulb vasopressin cells (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002093/draft
+citation: Reichardt, Nicolas; Kindler, Lisa; Pino, Esteban; Leygnier, Manon; Jahan,
+  Israt; Schmid, Jonas; Lukas, Michael; Egger, Veronica; Suyama, Hajime (2026) Dataset
+  of "Synergistic afferent input and cholinergic neuromodulation can lead to ERK activation
+  in rat olfactory bulb vasopressin cells" (Version draft) [Data set]. DANDI Archive.
+  https://dandiarchive.org/dandiset/002093/draft
 contributor:
-- affiliation:
-  - name: Institute of Zoology, Neurophysiology, University of Regensburg
-    schemaKey: Affiliation
-  email: veronica.egger@ur.de
-  identifier: 0000-0001-5729-997X
-  includeInCitation: true
-  name: Egger, Veronica
-  roleName:
-  - dcite:ContactPerson
-  - dcite:Author
-  schemaKey: Person
 - affiliation:
   - name: Institute of Zoology, Neurophysiology, University of Regensburg
     schemaKey: Affiliation
@@ -75,7 +65,6 @@ contributor:
   name: Reichardt, Nicolas
   roleName:
   - dcite:Author
-  - dcite:DataManager
   schemaKey: Person
 - affiliation:
   - name: Department of Evolutionary Biology, Integrative Zoology, University of Vienna
@@ -131,6 +120,17 @@ contributor:
   includeInCitation: true
   name: Lukas, Michael
   roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Institute of Zoology, Neurophysiology, University of Regensburg
+    schemaKey: Affiliation
+  email: veronica.egger@ur.de
+  identifier: 0000-0001-5729-997X
+  includeInCitation: true
+  name: Egger, Veronica
+  roleName:
+  - dcite:ContactPerson
   - dcite:Author
   schemaKey: Person
 - affiliation:
@@ -190,8 +190,8 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002093/versions/draft/assets/
-name: Synergistic afferent input and cholinergic neuromodulation can lead to ERK activation
-  in rat olfactory bulb vasopressin cells
+name: Dataset of "Synergistic afferent input and cholinergic neuromodulation can lead
+  to ERK activation in rat olfactory bulb vasopressin cells"
 relatedResource:
 - name: Data archive of "Synergistic afferent input and cholinergic neuromodulation
     can lead to ERK activation in rat olfactory bulb vasopressin cells"
